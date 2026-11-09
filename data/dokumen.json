@@ -1,8 +1,137 @@
 [
-  {"id": "cuti", "judul": "Aturan Cuti Akademik",
-   "isi": "Mahasiswa dapat mengajukan cuti akademik paling lama dua semester. Pengajuan dilakukan sebelum masa KRS dengan surat permohonan ke prodi. Selama cuti, mahasiswa tidak mengikuti perkuliahan."},
-  {"id": "skripsi", "judul": "Syarat Seminar Proposal Skripsi",
-   "isi": "Mahasiswa boleh mengajukan seminar proposal jika telah lulus minimal 100 SKS dan proposal telah disetujui dosen pembimbing."},
-  {"id": "nilai", "judul": "Perbaikan Nilai",
-   "isi": "Mahasiswa dapat mengulang mata kuliah yang bernilai D atau E pada semester berikutnya. Nilai terbaru menggantikan nilai lama."}
+  {
+    "id": "cuti",
+    "judul": "Aturan Cuti Akademik",
+    "isi": "Mahasiswa dapat mengajukan cuti akademik paling lama dua semester. Pengajuan dilakukan sebelum masa KRS dengan surat permohonan ke prodi. Selama cuti, mahasiswa tidak mengikuti perkuliahan. (DATA DUMMY)"
+  },
+  {
+    "id": "skripsi",
+    "judul": "Syarat Seminar Proposal Skripsi",
+    "isi": "Mahasiswa boleh mengajukan seminar proposal jika telah lulus minimal 100 SKS dan proposal telah disetujui dosen pembimbing. (DATA DUMMY)"
+  },
+  {
+    "id": "nilai",
+    "judul": "Perbaikan Nilai",
+    "isi": "Mahasiswa dapat mengulang mata kuliah yang bernilai D atau E pada semester berikutnya. Nilai terbaru menggantikan nilai lama. (DATA DUMMY)"
+  },
+  {
+    "id": "prodi_if",
+    "judul": "Profil Prodi Informatika",
+    "isi": "Prodi Informatika mempelajari pengembangan perangkat lunak, kecerdasan buatan, jaringan komputer, dan algoritma. Lulusan menyandang gelar S.Kom dengan masa studi normal delapan semester dan beban 144 SKS. (DATA DUMMY)"
+  },
+  {
+    "id": "prodi_pti",
+    "judul": "Profil Prodi Pendidikan Teknik Informatika",
+    "isi": "Prodi Pendidikan Teknik Informatika menyiapkan calon guru produktif bidang informatika dan teknologi informasi. Lulusan menyandang gelar S.Pd dengan masa studi normal delapan semester dan beban 144 SKS, termasuk program praktik mengajar. (DATA DUMMY)"
+  },
+  {
+    "id": "prodi_pte",
+    "judul": "Profil Prodi Pendidikan Teknik Elektronika",
+    "isi": "Prodi Pendidikan Teknik Elektronika menyiapkan calon guru kejuruan bidang elektronika. Lulusan menyandang gelar S.Pd dengan masa studi normal delapan semester dan beban 144 SKS. (DATA DUMMY)"
+  },
+  {
+    "id": "prodi_trse",
+    "judul": "Profil Prodi TRSE",
+    "isi": "Prodi Teknologi Rekayasa Sistem Elektronika (TRSE) berfokus pada perancangan, pembuatan, dan perawatan sistem elektronika dan sistem tertanam. Prodi ini berorientasi terapan dengan porsi praktikum dan magang yang besar. (DATA DUMMY - ganti dengan data resmi prodi)"
+  },
+  {
+    "id": "angkatan_info",
+    "judul": "Informasi Tahun Angkatan",
+    "isi": "Angkatan adalah tahun masuk mahasiswa. Mahasiswa angkatan 2022 berada pada tahap akhir dan mengerjakan skripsi. Angkatan 2023 berada pada semester lima sampai tujuh, angkatan 2024 pada semester tiga sampai lima, dan angkatan 2025 adalah mahasiswa baru pada semester satu dan dua. Kurikulum yang berlaku bisa berbeda antar angkatan. (DATA DUMMY - ganti dengan data resmi prodi)"
+  },
+  {
+    "id": "kurikulum",
+    "judul": "Kurikulum dan Beban SKS",
+    "isi": "Beban studi sarjana adalah 144 SKS yang ditempuh dalam delapan semester. Beban SKS per semester ditentukan indeks prestasi semester sebelumnya: IP di bawah 2,00 boleh mengambil maksimal 18 SKS, IP 2,00 sampai 2,99 maksimal 21 SKS, dan IP 3,00 ke atas maksimal 24 SKS. (DATA DUMMY - ganti dengan data resmi prodi)"
+  },
+  {
+    "id": "mk_ai",
+    "judul": "Mata Kuliah Kecerdasan Buatan (AI)",
+    "isi": "Kecerdasan Buatan bernilai 3 SKS dan diambil di semester lima. Materi: konsep dasar AI, algoritma pencarian, representasi pengetahuan, pembelajaran mesin, jaringan saraf tiruan, dan pemrosesan bahasa alami. Prasyarat: Struktur Data dan Matematika Diskrit. Penilaian: tugas 20 persen, praktikum 20 persen, UTS 25 persen, UAS 25 persen, dan proyek akhir 10 persen. (DATA DUMMY - ganti dengan data resmi prodi)"
+  },
+  {
+    "id": "mk_jarkom",
+    "judul": "Mata Kuliah Jaringan Komputer",
+    "isi": "Jaringan Komputer bernilai 3 SKS dan diambil di semester empat. Materi: model OSI dan TCP/IP, pengalamatan IP, subnetting dan supernetting, routing, serta keamanan jaringan dasar. Terdapat praktikum menggunakan simulator jaringan. Prasyarat: Sistem Operasi sebaiknya sudah diambil. (DATA DUMMY - ganti dengan data resmi prodi)"
+  },
+  {
+    "id": "mk_so",
+    "judul": "Mata Kuliah Sistem Operasi",
+    "isi": "Sistem Operasi bernilai 3 SKS dan diambil di semester tiga. Materi: proses dan thread, penjadwalan CPU, sinkronisasi, deadlock, manajemen memori, dan sistem berkas. Praktikum dilakukan di lingkungan Linux. (DATA DUMMY - ganti dengan data resmi prodi)"
+  },
+  {
+    "id": "mk_kompleksitas",
+    "judul": "Mata Kuliah Kompleksitas Algoritma",
+    "isi": "Kompleksitas Algoritma bernilai 3 SKS dan diambil di semester empat. Materi: analisis efisiensi algoritma, notasi Big-O, Omega, dan Theta, analisis algoritma rekursif, serta pengantar kelas masalah P dan NP. Prasyarat: Struktur Data dan Algoritma. (DATA DUMMY - ganti dengan data resmi prodi)"
+  },
+  {
+    "id": "mk_pbo",
+    "judul": "Mata Kuliah Pemrograman Berorientasi Objek",
+    "isi": "Pemrograman Berorientasi Objek (PBO) bernilai 3 SKS dan diambil di semester tiga. Materi: kelas dan objek, enkapsulasi, pewarisan, polimorfisme, abstraksi, dan pengenalan pola desain. Praktikum menggunakan bahasa Java. Prasyarat: Dasar Pemrograman. (DATA DUMMY - ganti dengan data resmi prodi)"
+  },
+  {
+    "id": "prasyarat_mk",
+    "judul": "Aturan Prasyarat Mata Kuliah",
+    "isi": "Mata kuliah tertentu memiliki prasyarat yang harus lulus lebih dulu. Mahasiswa tidak dapat mengambil mata kuliah lanjutan sebelum lulus mata kuliah prasyaratnya. Daftar prasyarat tercantum di buku pedoman akademik dan portal akademik. (DATA DUMMY - ganti dengan data resmi prodi)"
+  },
+  {
+    "id": "presensi",
+    "judul": "Aturan Kehadiran, Absen, dan Presensi Perkuliahan",
+    "isi": "Absen atau presensi: mahasiswa wajib hadir minimal 75 persen dari total pertemuan untuk boleh mengikuti ujian akhir semester. Ketidakhadiran karena sakit harus disertai surat keterangan dokter yang diserahkan kepada dosen pengampu. (DATA DUMMY - ganti dengan data resmi prodi)"
+  },
+  {
+    "id": "penilaian",
+    "judul": "Sistem Penilaian dan IPK",
+    "isi": "Nilai huruf berkisar dari A sampai E dengan bobot A sama dengan 4, B sama dengan 3, C sama dengan 2, D sama dengan 1, dan E sama dengan 0. Indeks prestasi dihitung dari jumlah bobot dikali SKS dibagi total SKS. Syarat lulus mata kuliah adalah nilai minimal C. (DATA DUMMY - ganti dengan data resmi prodi)"
+  },
+  {
+    "id": "ujian",
+    "judul": "Aturan Ujian dan Ujian Susulan",
+    "isi": "Ujian susulan hanya diberikan bagi mahasiswa yang berhalangan karena sakit atau tugas dari universitas, dengan bukti resmi. Permohonan diajukan ke dosen pengampu paling lambat tiga hari kerja setelah ujian. (DATA DUMMY - ganti dengan data resmi prodi)"
+  },
+  {
+    "id": "pindah_prodi",
+    "judul": "Aturan Pindah Program Studi",
+    "isi": "Perpindahan program studi hanya dapat diajukan setelah menyelesaikan dua semester dan memiliki IPK minimal 3,00. Pengajuan dilakukan melalui surat permohonan ke ketua prodi asal dan prodi tujuan, serta bergantung pada kuota. (DATA DUMMY - ganti dengan data resmi prodi)"
+  },
+  {
+    "id": "yudisium",
+    "judul": "Persyaratan Yudisium dan Kelulusan",
+    "isi": "Mahasiswa dinyatakan lulus jika telah menyelesaikan 144 SKS, IPK minimal 2,75, tidak ada nilai E, serta lulus sidang skripsi. Yudisium diselenggarakan setelah sidang skripsi dan perbaikan naskah selesai. (DATA DUMMY - ganti dengan data resmi prodi)"
+  },
+  {
+    "id": "sidang_skripsi",
+    "judul": "Prosedur Sidang Skripsi",
+    "isi": "Sidang skripsi diajukan setelah naskah skripsi disetujui dosen pembimbing. Mahasiswa mendaftar melalui admin prodi dengan membawa naskah, lembar persetujuan pembimbing, dan bukti telah menyelesaikan seluruh mata kuliah wajib. (DATA DUMMY - ganti dengan data resmi prodi)"
+  },
+  {
+    "id": "magang",
+    "judul": "Program Magang dan Praktik Industri",
+    "isi": "Magang atau praktik industri bernilai 4 SKS dengan durasi minimal tiga bulan, diambil mulai semester enam. Mahasiswa mengajukan tempat magang ke prodi dan membuat laporan akhir yang dinilai dosen pembimbing magang dan pembimbing lapangan. (DATA DUMMY - ganti dengan data resmi prodi)"
+  },
+  {
+    "id": "kkn",
+    "judul": "Kuliah Kerja Nyata (KKN)",
+    "isi": "KKN diikuti mahasiswa yang telah lulus minimal 100 SKS. Pendaftaran dilakukan melalui portal akademik sesuai jadwal yang diumumkan lembaga pengabdian masyarakat. (DATA DUMMY - ganti dengan data resmi prodi)"
+  },
+  {
+    "id": "beasiswa",
+    "judul": "Informasi Beasiswa",
+    "isi": "Informasi beasiswa diumumkan melalui kemahasiswaan fakultas. Syarat umum meliputi IPK minimal 3,00, aktif kuliah, dan melengkapi berkas administrasi. Pendaftaran dibuka sesuai jadwal pengumuman. (DATA DUMMY - ganti dengan data resmi prodi)"
+  },
+  {
+    "id": "surat",
+    "judul": "Layanan Surat Keterangan",
+    "isi": "Surat keterangan aktif kuliah dan surat keterangan lainnya diajukan ke tata usaha prodi dengan membawa KTM. Proses pengerjaan sekitar tiga hari kerja. (DATA DUMMY - ganti dengan data resmi prodi)"
+  },
+  {
+    "id": "ukt",
+    "judul": "Pembayaran UKT dan Keringanan",
+    "isi": "UKT dibayar setiap semester sebelum masa KRS. Mahasiswa yang mengalami kendala ekonomi dapat mengajukan keringanan ke bagian keuangan fakultas dengan melampirkan dokumen pendukung. Mahasiswa yang belum membayar UKT tidak dapat mengisi KRS. (DATA DUMMY - ganti dengan data resmi prodi)"
+  },
+  {
+    "id": "wisuda",
+    "judul": "Pendaftaran Wisuda",
+    "isi": "Pendaftaran wisuda dilakukan setelah yudisium dengan mengisi data di portal akademik dan melengkapi berkas, antara lain ijazah SMA, pas foto, dan bukti bebas pustaka. (DATA DUMMY - ganti dengan data resmi prodi)"
+  }
 ]

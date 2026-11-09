@@ -1,5 +1,40 @@
 [
   {
+    "id": "sapaan",
+    "pertanyaan": [
+      "halo",
+      "hai",
+      "hai bot",
+      "selamat pagi",
+      "selamat siang",
+      "selamat sore",
+      "permisi"
+    ],
+    "jawaban": "Halo! Saya chatbot layanan akademik prodi. Silakan tanya soal jadwal, KRS, mata kuliah, atau aturan akademik."
+  },
+  {
+    "id": "terima_kasih",
+    "pertanyaan": [
+      "terima kasih",
+      "makasih",
+      "thanks",
+      "terima kasih banyak",
+      "makasih bot"
+    ],
+    "jawaban": "Sama-sama! Kalau ada pertanyaan lain, silakan tanya lagi."
+  },
+  {
+    "id": "perpisahan",
+    "pertanyaan": [
+      "sampai jumpa",
+      "dadah",
+      "bye",
+      "sampai ketemu lagi",
+      "selesai"
+    ],
+    "jawaban": "Sampai jumpa! Semoga sukses kuliahnya."
+  },
+  {
     "id": "jadwal",
     "pertanyaan": [
       "jadwal kuliah",
@@ -8,10 +43,11 @@
       "jam kuliah hari ini",
       "jadwal mata kuliah semester ini",
       "jadwal kuliah saya",
-      "jam kuliah jadwal hari ini",
-      "lihat jadwal perkuliahan"
+      "lihat jadwal perkuliahan",
+      "jadwal kuliah hari ini",
+      "jadwal kuliah semester ini"
     ],
-    "jawaban": "Jadwal kuliah dapat dilihat di portal akademik atau papan pengumuman prodi."
+    "jawaban": "Jadwal kuliah dapat dilihat di portal akademik atau papan pengumuman prodi. (DATA DUMMY)"
   },
   {
     "id": "lokasi",
@@ -23,7 +59,6 @@
       "alamat universitas",
       "kampus di mana",
       "kampus ada di mana",
-      "dimana letak kampus unp",
       "alamat kampus unp"
     ],
     "jawaban": "Kampus UNP Air Tawar berada di Jl. Prof. Dr. Hamka, Air Tawar, Kota Padang, Sumatera Barat."
@@ -57,6 +92,83 @@
       "krs dibuka kapan",
       "pengisian krs kapan"
     ],
-    "jawaban": "KRS diisi lewat portal akademik pada masa KRS di kalender akademik. Pastikan Anda telah memenuhi syarat pengisian KRS sesuai pedoman akademik."
+    "jawaban": "KRS diisi lewat portal akademik pada masa KRS yang tertera di kalender akademik."
+  },
+  {
+    "id": "daftar_prodi",
+    "pertanyaan": [
+      "prodi apa saja",
+      "daftar prodi",
+      "program studi apa saja",
+      "ada prodi apa saja",
+      "jurusan apa saja",
+      "prodi yang ada di fakultas"
+    ],
+    "jawaban": "Program studi yang tersedia: Informatika, Pendidikan Teknik Informatika, Pendidikan Teknik Elektronika, dan Teknologi Rekayasa Sistem Elektronika (TRSE)."
+  },
+  {
+    "id": "daftar_matkul_if",
+    "pertanyaan": [
+      "mata kuliah informatika",
+      "matkul informatika",
+      "daftar mata kuliah informatika",
+      "matkul prodi informatika apa saja",
+      "mata kuliah di informatika apa saja"
+    ],
+    "jawaban": "Beberapa mata kuliah Informatika: Kecerdasan Buatan (AI), Jaringan Komputer, Sistem Operasi, Kompleksitas Algoritma, dan Pemrograman Berorientasi Objek. (DATA DUMMY)"
+  },
+  {
+    "id": "angkatan",
+    "pertanyaan": [
+      "tahun angkatan",
+      "angkatan berapa saja",
+      "daftar angkatan",
+      "angkatan yang aktif",
+      "mahasiswa angkatan berapa saja yang aktif"
+    ],
+    "jawaban": "Angkatan mahasiswa aktif saat ini: 2022, 2023, 2024, dan 2025. Angkatan ditentukan oleh tahun masuk kuliah. (DATA DUMMY)"
+  },
+  {
+    "id": "jam_layanan",
+    "pertanyaan": [
+      "jam layanan akademik",
+      "jam buka admin",
+      "jam operasional prodi",
+      "kapan admin buka",
+      "jam kerja tata usaha"
+    ],
+    "jawaban": "Layanan akademik buka Senin sampai Jumat pukul 08.00-16.00 WIB, kecuali hari libur. (DATA DUMMY)"
+  },
+  {
+    "id": "portal",
+    "pertanyaan": [
+      "link portal akademik",
+      "alamat portal akademik",
+      "portal akademik apa",
+      "lupa password portal",
+      "login portal akademik"
+    ],
+    "jawaban": "Portal akademik diakses lewat situs resmi universitas. Jika lupa kata sandi, hubungi admin prodi dengan membawa KTM."
+  },
+  {
+    "id": "ktm",
+    "pertanyaan": [
+      "ktm hilang",
+      "kartu mahasiswa hilang",
+      "cara mengurus ktm",
+      "ganti ktm",
+      "kartu tanda mahasiswa rusak"
+    ],
+    "jawaban": "KTM hilang atau rusak diurus ke tata usaha prodi dengan membawa surat keterangan kehilangan dan pas foto."
+  },
+  {
+    "id": "dosen_pa",
+    "pertanyaan": [
+      "siapa dosen pa",
+      "dosen pembimbing akademik",
+      "cara tahu dosen pa",
+      "dosen pa saya siapa"
+    ],
+    "jawaban": "Nama dosen pembimbing akademik (PA) tercantum di portal akademik pada menu data mahasiswa."
   }
 ]
