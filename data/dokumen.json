@@ -1,0 +1,8 @@
+[
+  {"id": "cuti", "judul": "Aturan Cuti Akademik",
+   "isi": "Mahasiswa dapat mengajukan cuti akademik paling lama dua semester. Pengajuan dilakukan sebelum masa KRS dengan surat permohonan ke prodi. Selama cuti, mahasiswa tidak mengikuti perkuliahan."},
+  {"id": "skripsi", "judul": "Syarat Seminar Proposal Skripsi",
+   "isi": "Mahasiswa boleh mengajukan seminar proposal jika telah lulus minimal 100 SKS dan proposal telah disetujui dosen pembimbing."},
+  {"id": "nilai", "judul": "Perbaikan Nilai",
+   "isi": "Mahasiswa dapat mengulang mata kuliah yang bernilai D atau E pada semester berikutnya. Nilai terbaru menggantikan nilai lama."}
+]

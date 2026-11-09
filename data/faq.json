@@ -1,0 +1,62 @@
+[
+  {
+    "id": "jadwal",
+    "pertanyaan": [
+      "jadwal kuliah",
+      "kapan jadwal kuliah",
+      "lihat jadwal kuliah",
+      "jam kuliah hari ini",
+      "jadwal mata kuliah semester ini",
+      "jadwal kuliah saya",
+      "jam kuliah jadwal hari ini",
+      "lihat jadwal perkuliahan"
+    ],
+    "jawaban": "Jadwal kuliah dapat dilihat di portal akademik atau papan pengumuman prodi."
+  },
+  {
+    "id": "lokasi",
+    "pertanyaan": [
+      "lokasi kampus",
+      "alamat kampus",
+      "kampus dimana",
+      "letak kampus",
+      "alamat universitas",
+      "kampus di mana",
+      "kampus ada di mana",
+      "dimana letak kampus unp",
+      "alamat kampus unp"
+    ],
+    "jawaban": "Kampus UNP Air Tawar berada di Jl. Prof. Dr. Hamka, Air Tawar, Kota Padang, Sumatera Barat."
+  },
+  {
+    "id": "kontak",
+    "pertanyaan": [
+      "kontak admin",
+      "nomor telepon admin",
+      "email prodi",
+      "hubungi admin",
+      "cara menghubungi prodi",
+      "email admin",
+      "email admin prodi",
+      "nomor admin",
+      "kontak prodi",
+      "telepon prodi"
+    ],
+    "jawaban": "Hubungi admin lewat info@unp.ac.id atau 0751 7053902."
+  },
+  {
+    "id": "krs",
+    "pertanyaan": [
+      "cara mengisi krs",
+      "kapan krs dibuka",
+      "pengisian krs",
+      "krs online",
+      "isi kartu rencana studi",
+      "cara isi krs",
+      "cara mengisi krs online",
+      "krs dibuka kapan",
+      "pengisian krs kapan"
+    ],
+    "jawaban": "KRS diisi lewat portal akademik pada masa KRS di kalender akademik. Pastikan Anda telah memenuhi syarat pengisian KRS sesuai pedoman akademik."
+  }
+]
