@@ -47,7 +47,8 @@
       "jadwal kuliah hari ini",
       "jadwal kuliah semester ini"
     ],
-    "jawaban": "Jadwal kuliah dapat dilihat di portal akademik atau papan pengumuman prodi. (DATA DUMMY)"
+    "jawaban": "Jadwal kuliah resmi ada di portal akademik atau papan pengumuman prodi. Untuk jadwal rinci, tanyakan dengan menyebut hari, semester, atau nama mata kuliah, misalnya: 'jadwal kuliah hari Senin' atau 'jadwal Kecerdasan Buatan'. (DATA DUMMY - ganti dengan data resmi prodi)",
+    "ketat": true
   },
   {
     "id": "lokasi",
@@ -92,7 +93,7 @@
       "krs dibuka kapan",
       "pengisian krs kapan"
     ],
-    "jawaban": "KRS diisi lewat portal akademik pada masa KRS yang tertera di kalender akademik."
+    "jawaban": "KRS diisi lewat portal akademik pada masa KRS yang tertera di kalender akademik. (DATA DUMMY - ganti dengan data resmi prodi)"
   },
   {
     "id": "daftar_prodi",
@@ -104,7 +105,7 @@
       "jurusan apa saja",
       "prodi yang ada di fakultas"
     ],
-    "jawaban": "Program studi yang tersedia: Informatika, Pendidikan Teknik Informatika, Pendidikan Teknik Elektronika, dan Teknologi Rekayasa Sistem Elektronika (TRSE)."
+    "jawaban": "Program studi yang tersedia: Informatika, Pendidikan Teknik Informatika, Pendidikan Teknik Elektronika, dan Teknologi Rekayasa Sistem Elektronika (TRSE). (DATA DUMMY - ganti dengan data resmi prodi)"
   },
   {
     "id": "daftar_matkul_if",
@@ -115,7 +116,7 @@
       "matkul prodi informatika apa saja",
       "mata kuliah di informatika apa saja"
     ],
-    "jawaban": "Beberapa mata kuliah Informatika: Kecerdasan Buatan (AI), Jaringan Komputer, Sistem Operasi, Kompleksitas Algoritma, dan Pemrograman Berorientasi Objek. (DATA DUMMY)"
+    "jawaban": "Beberapa mata kuliah Informatika: Kecerdasan Buatan (AI), Jaringan Komputer, Sistem Operasi, Kompleksitas Algoritma, dan Pemrograman Berorientasi Objek. (DATA DUMMY - ganti dengan data resmi prodi)"
   },
   {
     "id": "angkatan",
@@ -126,7 +127,7 @@
       "angkatan yang aktif",
       "mahasiswa angkatan berapa saja yang aktif"
     ],
-    "jawaban": "Angkatan mahasiswa aktif saat ini: 2022, 2023, 2024, dan 2025. Angkatan ditentukan oleh tahun masuk kuliah. (DATA DUMMY)"
+    "jawaban": "Angkatan mahasiswa aktif saat ini: 2023, 2024, 2025, dan 2026. Angkatan ditentukan oleh tahun masuk kuliah. (DATA DUMMY - ganti dengan data resmi prodi)"
   },
   {
     "id": "jam_layanan",
@@ -137,7 +138,7 @@
       "kapan admin buka",
       "jam kerja tata usaha"
     ],
-    "jawaban": "Layanan akademik buka Senin sampai Jumat pukul 08.00-16.00 WIB, kecuali hari libur. (DATA DUMMY)"
+    "jawaban": "Layanan akademik buka Senin sampai Jumat pukul 08.00-16.00 WIB, kecuali hari libur. (DATA DUMMY - ganti dengan data resmi prodi)"
   },
   {
     "id": "portal",
@@ -148,7 +149,7 @@
       "lupa password portal",
       "login portal akademik"
     ],
-    "jawaban": "Portal akademik diakses lewat situs resmi universitas. Jika lupa kata sandi, hubungi admin prodi dengan membawa KTM."
+    "jawaban": "Portal akademik diakses lewat situs resmi universitas. Jika lupa kata sandi, hubungi admin prodi dengan membawa KTM. (DATA DUMMY - ganti dengan data resmi prodi)"
   },
   {
     "id": "ktm",
@@ -159,7 +160,7 @@
       "ganti ktm",
       "kartu tanda mahasiswa rusak"
     ],
-    "jawaban": "KTM hilang atau rusak diurus ke tata usaha prodi dengan membawa surat keterangan kehilangan dan pas foto."
+    "jawaban": "KTM hilang atau rusak diurus ke tata usaha prodi dengan membawa surat keterangan kehilangan dan pas foto. (DATA DUMMY - ganti dengan data resmi prodi)"
   },
   {
     "id": "dosen_pa",
@@ -169,6 +170,6 @@
       "cara tahu dosen pa",
       "dosen pa saya siapa"
     ],
-    "jawaban": "Nama dosen pembimbing akademik (PA) tercantum di portal akademik pada menu data mahasiswa."
+    "jawaban": "Nama dosen pembimbing akademik (PA) tercantum di portal akademik pada menu data mahasiswa. (DATA DUMMY - ganti dengan data resmi prodi)"
   }
 ]

@@ -2,32 +2,32 @@
   {
     "id": "cuti",
     "judul": "Aturan Cuti Akademik",
-    "isi": "Mahasiswa dapat mengajukan cuti akademik paling lama dua semester. Pengajuan dilakukan sebelum masa KRS dengan surat permohonan ke prodi. Selama cuti, mahasiswa tidak mengikuti perkuliahan. (DATA DUMMY)"
+    "isi": "Mahasiswa dapat mengajukan cuti akademik paling lama dua semester. Pengajuan dilakukan sebelum masa KRS dengan surat permohonan ke prodi. Selama cuti, mahasiswa tidak mengikuti perkuliahan. (DATA DUMMY - ganti dengan data resmi prodi)"
   },
   {
     "id": "skripsi",
     "judul": "Syarat Seminar Proposal Skripsi",
-    "isi": "Mahasiswa boleh mengajukan seminar proposal jika telah lulus minimal 100 SKS dan proposal telah disetujui dosen pembimbing. (DATA DUMMY)"
+    "isi": "Mahasiswa boleh mengajukan seminar proposal jika telah lulus minimal 100 SKS dan proposal telah disetujui dosen pembimbing. (DATA DUMMY - ganti dengan data resmi prodi)"
   },
   {
     "id": "nilai",
     "judul": "Perbaikan Nilai",
-    "isi": "Mahasiswa dapat mengulang mata kuliah yang bernilai D atau E pada semester berikutnya. Nilai terbaru menggantikan nilai lama. (DATA DUMMY)"
+    "isi": "Mahasiswa dapat mengulang mata kuliah yang bernilai D atau E pada semester berikutnya. Nilai terbaru menggantikan nilai lama. (DATA DUMMY - ganti dengan data resmi prodi)"
   },
   {
     "id": "prodi_if",
     "judul": "Profil Prodi Informatika",
-    "isi": "Prodi Informatika mempelajari pengembangan perangkat lunak, kecerdasan buatan, jaringan komputer, dan algoritma. Lulusan menyandang gelar S.Kom dengan masa studi normal delapan semester dan beban 144 SKS. (DATA DUMMY)"
+    "isi": "Prodi Informatika mempelajari pengembangan perangkat lunak, kecerdasan buatan, jaringan komputer, dan algoritma. Lulusan menyandang gelar S.Kom dengan masa studi normal delapan semester dan beban 144 SKS. (DATA DUMMY - ganti dengan data resmi prodi)"
   },
   {
     "id": "prodi_pti",
     "judul": "Profil Prodi Pendidikan Teknik Informatika",
-    "isi": "Prodi Pendidikan Teknik Informatika menyiapkan calon guru produktif bidang informatika dan teknologi informasi. Lulusan menyandang gelar S.Pd dengan masa studi normal delapan semester dan beban 144 SKS, termasuk program praktik mengajar. (DATA DUMMY)"
+    "isi": "Prodi Pendidikan Teknik Informatika menyiapkan calon guru produktif bidang informatika dan teknologi informasi. Lulusan menyandang gelar S.Pd dengan masa studi normal delapan semester dan beban 144 SKS, termasuk program praktik mengajar. (DATA DUMMY - ganti dengan data resmi prodi)"
   },
   {
     "id": "prodi_pte",
     "judul": "Profil Prodi Pendidikan Teknik Elektronika",
-    "isi": "Prodi Pendidikan Teknik Elektronika menyiapkan calon guru kejuruan bidang elektronika. Lulusan menyandang gelar S.Pd dengan masa studi normal delapan semester dan beban 144 SKS. (DATA DUMMY)"
+    "isi": "Prodi Pendidikan Teknik Elektronika menyiapkan calon guru kejuruan bidang elektronika. Lulusan menyandang gelar S.Pd dengan masa studi normal delapan semester dan beban 144 SKS. (DATA DUMMY - ganti dengan data resmi prodi)"
   },
   {
     "id": "prodi_trse",
@@ -37,7 +37,7 @@
   {
     "id": "angkatan_info",
     "judul": "Informasi Tahun Angkatan",
-    "isi": "Angkatan adalah tahun masuk mahasiswa. Mahasiswa angkatan 2022 berada pada tahap akhir dan mengerjakan skripsi. Angkatan 2023 berada pada semester lima sampai tujuh, angkatan 2024 pada semester tiga sampai lima, dan angkatan 2025 adalah mahasiswa baru pada semester satu dan dua. Kurikulum yang berlaku bisa berbeda antar angkatan. (DATA DUMMY - ganti dengan data resmi prodi)"
+    "isi": "Angkatan adalah tahun masuk mahasiswa. Pada semester ganjil 2026/2027, mahasiswa angkatan 2023 berada di semester tujuh dan menyiapkan skripsi, angkatan 2024 di semester lima, angkatan 2025 di semester tiga, dan angkatan 2026 adalah mahasiswa baru di semester satu. Kurikulum yang berlaku bisa berbeda antar angkatan. (DATA DUMMY - ganti dengan data resmi prodi)"
   },
   {
     "id": "kurikulum",
@@ -133,5 +133,290 @@
     "id": "wisuda",
     "judul": "Pendaftaran Wisuda",
     "isi": "Pendaftaran wisuda dilakukan setelah yudisium dengan mengisi data di portal akademik dan melengkapi berkas, antara lain ijazah SMA, pas foto, dan bukti bebas pustaka. (DATA DUMMY - ganti dengan data resmi prodi)"
+  },
+  {
+    "id": "jadwal_hari_senin_ganjil",
+    "judul": "Jadwal Kuliah Informatika Hari Senin Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Jadwal kuliah Informatika hari Senin, Semester Ganjil 2026/2027 (sedang berjalan): 07.30-09.10 Bahasa Indonesia (semester 1, R. 201, Dosen E); 07.30-10.00 Basis Data (semester 3, Lab Komputer 1, Dosen I); 07.30-10.00 Kecerdasan Buatan (semester 5, Lab Komputer 2, Dosen M); 10.00-12.30 Komputasi Awan (semester 5, R. 201, Dosen B). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_hari_selasa_ganjil",
+    "judul": "Jadwal Kuliah Informatika Hari Selasa Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Jadwal kuliah Informatika hari Selasa, Semester Ganjil 2026/2027 (sedang berjalan): 07.30-10.00 Aljabar Linear (semester 1, R. 201, Dosen D); 07.30-10.00 Pemrograman Berorientasi Objek (semester 3, Lab Komputer 1, Dosen H); 07.30-10.00 Metodologi Penelitian (semester 5, R. 202, Dosen A); 07.30-10.00 Sistem Cerdas Lanjut (semester 7, R. 203, Dosen E). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_hari_rabu_ganjil",
+    "judul": "Jadwal Kuliah Informatika Hari Rabu Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Jadwal kuliah Informatika hari Rabu, Semester Ganjil 2026/2027 (sedang berjalan): 07.30-10.00 Pengantar Teknologi Informasi (semester 1, R. 201, Dosen C); 07.30-10.00 Sistem Operasi (semester 3, Lab Komputer 1, Dosen G); 07.30-10.00 Data Mining (semester 5, Lab Komputer 2, Dosen P); 07.30-10.00 Topik Khusus Informatika (semester 7, R. 202, Dosen D); 10.00-12.30 Interaksi Manusia dan Komputer (semester 3, R. 201, Dosen L). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_hari_kamis_ganjil",
+    "judul": "Jadwal Kuliah Informatika Hari Kamis Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Jadwal kuliah Informatika hari Kamis, Semester Ganjil 2026/2027 (sedang berjalan): 07.30-10.00 Matematika Diskrit (semester 1, R. 201, Dosen B); 07.30-10.00 Analisis dan Perancangan Sistem (semester 3, R. 202, Dosen K); 07.30-10.00 Keamanan Informasi (semester 5, R. 203, Dosen O); 07.30-09.10 Kewirausahaan (semester 7, R. 204, Dosen C). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_hari_jumat_ganjil",
+    "judul": "Jadwal Kuliah Informatika Hari Jumat Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Jadwal kuliah Informatika hari Jumat, Semester Ganjil 2026/2027 (sedang berjalan): 07.30-10.00 Dasar Pemrograman (semester 1, Lab Komputer 1, Dosen A); 07.30-10.00 Statistika dan Probabilitas (semester 3, R. 201, Dosen J); 07.30-10.00 Pemrograman Mobile (semester 5, Lab Komputer 2, Dosen N); 14.00-15.40 Pendidikan Pancasila (semester 1, R. 201, Dosen F). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_sem1_ganjil",
+    "judul": "Jadwal Kuliah Informatika Semester 1 Angkatan 2026 Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Jadwal kuliah Informatika semester 1 (angkatan 2026), Semester Ganjil 2026/2027 (sedang berjalan): Senin 07.30-09.10 Bahasa Indonesia (R. 201, Dosen E); Selasa 07.30-10.00 Aljabar Linear (R. 201, Dosen D); Rabu 07.30-10.00 Pengantar Teknologi Informasi (R. 201, Dosen C); Kamis 07.30-10.00 Matematika Diskrit (R. 201, Dosen B); Jumat 07.30-10.00 Dasar Pemrograman (Lab Komputer 1, Dosen A); Jumat 14.00-15.40 Pendidikan Pancasila (R. 201, Dosen F). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_sem3_ganjil",
+    "judul": "Jadwal Kuliah Informatika Semester 3 Angkatan 2025 Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Jadwal kuliah Informatika semester 3 (angkatan 2025), Semester Ganjil 2026/2027 (sedang berjalan): Senin 07.30-10.00 Basis Data (Lab Komputer 1, Dosen I); Selasa 07.30-10.00 Pemrograman Berorientasi Objek (Lab Komputer 1, Dosen H); Rabu 07.30-10.00 Sistem Operasi (Lab Komputer 1, Dosen G); Rabu 10.00-12.30 Interaksi Manusia dan Komputer (R. 201, Dosen L); Kamis 07.30-10.00 Analisis dan Perancangan Sistem (R. 202, Dosen K); Jumat 07.30-10.00 Statistika dan Probabilitas (R. 201, Dosen J). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_sem5_ganjil",
+    "judul": "Jadwal Kuliah Informatika Semester 5 Angkatan 2024 Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Jadwal kuliah Informatika semester 5 (angkatan 2024), Semester Ganjil 2026/2027 (sedang berjalan): Senin 07.30-10.00 Kecerdasan Buatan (Lab Komputer 2, Dosen M); Senin 10.00-12.30 Komputasi Awan (R. 201, Dosen B); Selasa 07.30-10.00 Metodologi Penelitian (R. 202, Dosen A); Rabu 07.30-10.00 Data Mining (Lab Komputer 2, Dosen P); Kamis 07.30-10.00 Keamanan Informasi (R. 203, Dosen O); Jumat 07.30-10.00 Pemrograman Mobile (Lab Komputer 2, Dosen N). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_sem7_ganjil",
+    "judul": "Jadwal Kuliah Informatika Semester 7 Angkatan 2023 Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Jadwal kuliah Informatika semester 7 (angkatan 2023), Semester Ganjil 2026/2027 (sedang berjalan): Selasa 07.30-10.00 Sistem Cerdas Lanjut (R. 203, Dosen E); Rabu 07.30-10.00 Topik Khusus Informatika (R. 202, Dosen D); Kamis 07.30-09.10 Kewirausahaan (R. 204, Dosen C). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_dasar_pemrograman_ganjil",
+    "judul": "Jadwal Kuliah Dasar Pemrograman Semester 1 Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Mata kuliah Dasar Pemrograman (3 SKS) untuk Informatika semester 1 angkatan 2026 dijadwalkan hari Jumat pukul 07.30-10.00 di Lab Komputer 1 dengan dosen pengampu Dosen A, Semester Ganjil 2026/2027 (sedang berjalan). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_matematika_diskrit_ganjil",
+    "judul": "Jadwal Kuliah Matematika Diskrit Semester 1 Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Mata kuliah Matematika Diskrit (3 SKS) untuk Informatika semester 1 angkatan 2026 dijadwalkan hari Kamis pukul 07.30-10.00 di R. 201 dengan dosen pengampu Dosen B, Semester Ganjil 2026/2027 (sedang berjalan). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_pengantar_teknologi_informasi_ganjil",
+    "judul": "Jadwal Kuliah Pengantar Teknologi Informasi Semester 1 Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Mata kuliah Pengantar Teknologi Informasi (3 SKS) untuk Informatika semester 1 angkatan 2026 dijadwalkan hari Rabu pukul 07.30-10.00 di R. 201 dengan dosen pengampu Dosen C, Semester Ganjil 2026/2027 (sedang berjalan). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_aljabar_linear_ganjil",
+    "judul": "Jadwal Kuliah Aljabar Linear Semester 1 Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Mata kuliah Aljabar Linear (3 SKS) untuk Informatika semester 1 angkatan 2026 dijadwalkan hari Selasa pukul 07.30-10.00 di R. 201 dengan dosen pengampu Dosen D, Semester Ganjil 2026/2027 (sedang berjalan). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_bahasa_indonesia_ganjil",
+    "judul": "Jadwal Kuliah Bahasa Indonesia Semester 1 Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Mata kuliah Bahasa Indonesia (2 SKS) untuk Informatika semester 1 angkatan 2026 dijadwalkan hari Senin pukul 07.30-09.10 di R. 201 dengan dosen pengampu Dosen E, Semester Ganjil 2026/2027 (sedang berjalan). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_pendidikan_pancasila_ganjil",
+    "judul": "Jadwal Kuliah Pendidikan Pancasila Semester 1 Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Mata kuliah Pendidikan Pancasila (2 SKS) untuk Informatika semester 1 angkatan 2026 dijadwalkan hari Jumat pukul 14.00-15.40 di R. 201 dengan dosen pengampu Dosen F, Semester Ganjil 2026/2027 (sedang berjalan). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_sistem_operasi_ganjil",
+    "judul": "Jadwal Kuliah Sistem Operasi Semester 3 Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Mata kuliah Sistem Operasi (3 SKS) untuk Informatika semester 3 angkatan 2025 dijadwalkan hari Rabu pukul 07.30-10.00 di Lab Komputer 1 dengan dosen pengampu Dosen G, Semester Ganjil 2026/2027 (sedang berjalan). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_pemrograman_berorientasi_objek_ganjil",
+    "judul": "Jadwal Kuliah Pemrograman Berorientasi Objek (PBO) Semester 3 Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Mata kuliah Pemrograman Berorientasi Objek (PBO) (3 SKS) untuk Informatika semester 3 angkatan 2025 dijadwalkan hari Selasa pukul 07.30-10.00 di Lab Komputer 1 dengan dosen pengampu Dosen H, Semester Ganjil 2026/2027 (sedang berjalan). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_basis_data_ganjil",
+    "judul": "Jadwal Kuliah Basis Data Semester 3 Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Mata kuliah Basis Data (3 SKS) untuk Informatika semester 3 angkatan 2025 dijadwalkan hari Senin pukul 07.30-10.00 di Lab Komputer 1 dengan dosen pengampu Dosen I, Semester Ganjil 2026/2027 (sedang berjalan). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_statistika_dan_probabilitas_ganjil",
+    "judul": "Jadwal Kuliah Statistika dan Probabilitas Semester 3 Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Mata kuliah Statistika dan Probabilitas (3 SKS) untuk Informatika semester 3 angkatan 2025 dijadwalkan hari Jumat pukul 07.30-10.00 di R. 201 dengan dosen pengampu Dosen J, Semester Ganjil 2026/2027 (sedang berjalan). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_analisis_dan_perancangan_sistem_ganjil",
+    "judul": "Jadwal Kuliah Analisis dan Perancangan Sistem Semester 3 Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Mata kuliah Analisis dan Perancangan Sistem (3 SKS) untuk Informatika semester 3 angkatan 2025 dijadwalkan hari Kamis pukul 07.30-10.00 di R. 202 dengan dosen pengampu Dosen K, Semester Ganjil 2026/2027 (sedang berjalan). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_interaksi_manusia_dan_komputer_ganjil",
+    "judul": "Jadwal Kuliah Interaksi Manusia dan Komputer Semester 3 Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Mata kuliah Interaksi Manusia dan Komputer (3 SKS) untuk Informatika semester 3 angkatan 2025 dijadwalkan hari Rabu pukul 10.00-12.30 di R. 201 dengan dosen pengampu Dosen L, Semester Ganjil 2026/2027 (sedang berjalan). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_kecerdasan_buatan_ganjil",
+    "judul": "Jadwal Kuliah Kecerdasan Buatan (AI) Semester 5 Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Mata kuliah Kecerdasan Buatan (AI) (3 SKS) untuk Informatika semester 5 angkatan 2024 dijadwalkan hari Senin pukul 07.30-10.00 di Lab Komputer 2 dengan dosen pengampu Dosen M, Semester Ganjil 2026/2027 (sedang berjalan). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_pemrograman_mobile_ganjil",
+    "judul": "Jadwal Kuliah Pemrograman Mobile Semester 5 Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Mata kuliah Pemrograman Mobile (3 SKS) untuk Informatika semester 5 angkatan 2024 dijadwalkan hari Jumat pukul 07.30-10.00 di Lab Komputer 2 dengan dosen pengampu Dosen N, Semester Ganjil 2026/2027 (sedang berjalan). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_keamanan_informasi_ganjil",
+    "judul": "Jadwal Kuliah Keamanan Informasi Semester 5 Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Mata kuliah Keamanan Informasi (3 SKS) untuk Informatika semester 5 angkatan 2024 dijadwalkan hari Kamis pukul 07.30-10.00 di R. 203 dengan dosen pengampu Dosen O, Semester Ganjil 2026/2027 (sedang berjalan). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_data_mining_ganjil",
+    "judul": "Jadwal Kuliah Data Mining Semester 5 Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Mata kuliah Data Mining (3 SKS) untuk Informatika semester 5 angkatan 2024 dijadwalkan hari Rabu pukul 07.30-10.00 di Lab Komputer 2 dengan dosen pengampu Dosen P, Semester Ganjil 2026/2027 (sedang berjalan). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_metodologi_penelitian_ganjil",
+    "judul": "Jadwal Kuliah Metodologi Penelitian Semester 5 Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Mata kuliah Metodologi Penelitian (3 SKS) untuk Informatika semester 5 angkatan 2024 dijadwalkan hari Selasa pukul 07.30-10.00 di R. 202 dengan dosen pengampu Dosen A, Semester Ganjil 2026/2027 (sedang berjalan). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_komputasi_awan_ganjil",
+    "judul": "Jadwal Kuliah Komputasi Awan Semester 5 Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Mata kuliah Komputasi Awan (3 SKS) untuk Informatika semester 5 angkatan 2024 dijadwalkan hari Senin pukul 10.00-12.30 di R. 201 dengan dosen pengampu Dosen B, Semester Ganjil 2026/2027 (sedang berjalan). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_kewirausahaan_ganjil",
+    "judul": "Jadwal Kuliah Kewirausahaan Semester 7 Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Mata kuliah Kewirausahaan (2 SKS) untuk Informatika semester 7 angkatan 2023 dijadwalkan hari Kamis pukul 07.30-09.10 di R. 204 dengan dosen pengampu Dosen C, Semester Ganjil 2026/2027 (sedang berjalan). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_topik_khusus_informatika_ganjil",
+    "judul": "Jadwal Kuliah Topik Khusus Informatika Semester 7 Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Mata kuliah Topik Khusus Informatika (3 SKS) untuk Informatika semester 7 angkatan 2023 dijadwalkan hari Rabu pukul 07.30-10.00 di R. 202 dengan dosen pengampu Dosen D, Semester Ganjil 2026/2027 (sedang berjalan). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_sistem_cerdas_lanjut_ganjil",
+    "judul": "Jadwal Kuliah Sistem Cerdas Lanjut Semester 7 Semester Ganjil 2026/2027 (sedang berjalan)",
+    "isi": "Mata kuliah Sistem Cerdas Lanjut (3 SKS) untuk Informatika semester 7 angkatan 2023 dijadwalkan hari Selasa pukul 07.30-10.00 di R. 203 dengan dosen pengampu Dosen E, Semester Ganjil 2026/2027 (sedang berjalan). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_hari_senin_genap",
+    "judul": "Jadwal Kuliah Informatika Hari Senin Semester Genap 2026/2027 (jadwal sementara)",
+    "isi": "Jadwal kuliah Informatika hari Senin, Semester Genap 2026/2027 (jadwal sementara): 07.30-10.00 Kalkulus (semester 2, R. 201, Dosen D); 07.30-10.00 Kompleksitas Algoritma (semester 4, R. 202, Dosen H); 07.30-09.10 Etika Profesi (semester 6, R. 203, Dosen A). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_hari_selasa_genap",
+    "judul": "Jadwal Kuliah Informatika Hari Selasa Semester Genap 2026/2027 (jadwal sementara)",
+    "isi": "Jadwal kuliah Informatika hari Selasa, Semester Genap 2026/2027 (jadwal sementara): 07.30-10.00 Organisasi dan Arsitektur Komputer (semester 2, R. 201, Dosen C); 07.30-10.00 Jaringan Komputer (semester 4, Lab Komputer 1, Dosen G); 07.30-10.00 Sistem Terdistribusi (semester 6, R. 202, Dosen P); 10.00-12.30 Metode Numerik (semester 4, R. 201, Dosen L). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_hari_rabu_genap",
+    "judul": "Jadwal Kuliah Informatika Hari Rabu Semester Genap 2026/2027 (jadwal sementara)",
+    "isi": "Jadwal kuliah Informatika hari Rabu, Semester Genap 2026/2027 (jadwal sementara): 07.30-10.00 Logika Informatika (semester 2, R. 201, Dosen B); 07.30-10.00 Teori Bahasa dan Otomata (semester 4, R. 202, Dosen K); 07.30-10.00 Manajemen Proyek TI (semester 6, R. 203, Dosen O). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_hari_kamis_genap",
+    "judul": "Jadwal Kuliah Informatika Hari Kamis Semester Genap 2026/2027 (jadwal sementara)",
+    "isi": "Jadwal kuliah Informatika hari Kamis, Semester Genap 2026/2027 (jadwal sementara): 07.30-10.00 Struktur Data (semester 2, Lab Komputer 1, Dosen A); 07.30-10.00 Pemrograman Web (semester 4, Lab Komputer 2, Dosen J); 07.30-10.00 Pengolahan Citra Digital (semester 6, Lab Jaringan, Dosen N); 10.00-11.40 Pendidikan Kewarganegaraan (semester 2, R. 201, Dosen F). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_hari_jumat_genap",
+    "judul": "Jadwal Kuliah Informatika Hari Jumat Semester Genap 2026/2027 (jadwal sementara)",
+    "isi": "Jadwal kuliah Informatika hari Jumat, Semester Genap 2026/2027 (jadwal sementara): 07.30-09.10 Bahasa Inggris (semester 2, R. 201, Dosen E); 07.30-10.00 Rekayasa Perangkat Lunak (semester 4, R. 202, Dosen I); 07.30-10.00 Pembelajaran Mesin (semester 6, Lab Komputer 1, Dosen M). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_sem2_genap",
+    "judul": "Jadwal Kuliah Informatika Semester 2 Angkatan 2026 Semester Genap 2026/2027 (jadwal sementara)",
+    "isi": "Jadwal kuliah Informatika semester 2 (angkatan 2026), Semester Genap 2026/2027 (jadwal sementara): Senin 07.30-10.00 Kalkulus (R. 201, Dosen D); Selasa 07.30-10.00 Organisasi dan Arsitektur Komputer (R. 201, Dosen C); Rabu 07.30-10.00 Logika Informatika (R. 201, Dosen B); Kamis 07.30-10.00 Struktur Data (Lab Komputer 1, Dosen A); Kamis 10.00-11.40 Pendidikan Kewarganegaraan (R. 201, Dosen F); Jumat 07.30-09.10 Bahasa Inggris (R. 201, Dosen E). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_sem4_genap",
+    "judul": "Jadwal Kuliah Informatika Semester 4 Angkatan 2025 Semester Genap 2026/2027 (jadwal sementara)",
+    "isi": "Jadwal kuliah Informatika semester 4 (angkatan 2025), Semester Genap 2026/2027 (jadwal sementara): Senin 07.30-10.00 Kompleksitas Algoritma (R. 202, Dosen H); Selasa 07.30-10.00 Jaringan Komputer (Lab Komputer 1, Dosen G); Selasa 10.00-12.30 Metode Numerik (R. 201, Dosen L); Rabu 07.30-10.00 Teori Bahasa dan Otomata (R. 202, Dosen K); Kamis 07.30-10.00 Pemrograman Web (Lab Komputer 2, Dosen J); Jumat 07.30-10.00 Rekayasa Perangkat Lunak (R. 202, Dosen I). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_sem6_genap",
+    "judul": "Jadwal Kuliah Informatika Semester 6 Angkatan 2024 Semester Genap 2026/2027 (jadwal sementara)",
+    "isi": "Jadwal kuliah Informatika semester 6 (angkatan 2024), Semester Genap 2026/2027 (jadwal sementara): Senin 07.30-09.10 Etika Profesi (R. 203, Dosen A); Selasa 07.30-10.00 Sistem Terdistribusi (R. 202, Dosen P); Rabu 07.30-10.00 Manajemen Proyek TI (R. 203, Dosen O); Kamis 07.30-10.00 Pengolahan Citra Digital (Lab Jaringan, Dosen N); Jumat 07.30-10.00 Pembelajaran Mesin (Lab Komputer 1, Dosen M). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_struktur_data_genap",
+    "judul": "Jadwal Kuliah Struktur Data Semester 2 Semester Genap 2026/2027 (jadwal sementara)",
+    "isi": "Mata kuliah Struktur Data (3 SKS) untuk Informatika semester 2 angkatan 2026 dijadwalkan hari Kamis pukul 07.30-10.00 di Lab Komputer 1 dengan dosen pengampu Dosen A, Semester Genap 2026/2027 (jadwal sementara). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_logika_informatika_genap",
+    "judul": "Jadwal Kuliah Logika Informatika Semester 2 Semester Genap 2026/2027 (jadwal sementara)",
+    "isi": "Mata kuliah Logika Informatika (3 SKS) untuk Informatika semester 2 angkatan 2026 dijadwalkan hari Rabu pukul 07.30-10.00 di R. 201 dengan dosen pengampu Dosen B, Semester Genap 2026/2027 (jadwal sementara). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_organisasi_dan_arsitektur_komputer_genap",
+    "judul": "Jadwal Kuliah Organisasi dan Arsitektur Komputer Semester 2 Semester Genap 2026/2027 (jadwal sementara)",
+    "isi": "Mata kuliah Organisasi dan Arsitektur Komputer (3 SKS) untuk Informatika semester 2 angkatan 2026 dijadwalkan hari Selasa pukul 07.30-10.00 di R. 201 dengan dosen pengampu Dosen C, Semester Genap 2026/2027 (jadwal sementara). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_kalkulus_genap",
+    "judul": "Jadwal Kuliah Kalkulus Semester 2 Semester Genap 2026/2027 (jadwal sementara)",
+    "isi": "Mata kuliah Kalkulus (3 SKS) untuk Informatika semester 2 angkatan 2026 dijadwalkan hari Senin pukul 07.30-10.00 di R. 201 dengan dosen pengampu Dosen D, Semester Genap 2026/2027 (jadwal sementara). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_bahasa_inggris_genap",
+    "judul": "Jadwal Kuliah Bahasa Inggris Semester 2 Semester Genap 2026/2027 (jadwal sementara)",
+    "isi": "Mata kuliah Bahasa Inggris (2 SKS) untuk Informatika semester 2 angkatan 2026 dijadwalkan hari Jumat pukul 07.30-09.10 di R. 201 dengan dosen pengampu Dosen E, Semester Genap 2026/2027 (jadwal sementara). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_pendidikan_kewarganegaraan_genap",
+    "judul": "Jadwal Kuliah Pendidikan Kewarganegaraan Semester 2 Semester Genap 2026/2027 (jadwal sementara)",
+    "isi": "Mata kuliah Pendidikan Kewarganegaraan (2 SKS) untuk Informatika semester 2 angkatan 2026 dijadwalkan hari Kamis pukul 10.00-11.40 di R. 201 dengan dosen pengampu Dosen F, Semester Genap 2026/2027 (jadwal sementara). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_jaringan_komputer_genap",
+    "judul": "Jadwal Kuliah Jaringan Komputer Semester 4 Semester Genap 2026/2027 (jadwal sementara)",
+    "isi": "Mata kuliah Jaringan Komputer (3 SKS) untuk Informatika semester 4 angkatan 2025 dijadwalkan hari Selasa pukul 07.30-10.00 di Lab Komputer 1 dengan dosen pengampu Dosen G, Semester Genap 2026/2027 (jadwal sementara). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_kompleksitas_algoritma_genap",
+    "judul": "Jadwal Kuliah Kompleksitas Algoritma Semester 4 Semester Genap 2026/2027 (jadwal sementara)",
+    "isi": "Mata kuliah Kompleksitas Algoritma (3 SKS) untuk Informatika semester 4 angkatan 2025 dijadwalkan hari Senin pukul 07.30-10.00 di R. 202 dengan dosen pengampu Dosen H, Semester Genap 2026/2027 (jadwal sementara). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_rekayasa_perangkat_lunak_genap",
+    "judul": "Jadwal Kuliah Rekayasa Perangkat Lunak Semester 4 Semester Genap 2026/2027 (jadwal sementara)",
+    "isi": "Mata kuliah Rekayasa Perangkat Lunak (3 SKS) untuk Informatika semester 4 angkatan 2025 dijadwalkan hari Jumat pukul 07.30-10.00 di R. 202 dengan dosen pengampu Dosen I, Semester Genap 2026/2027 (jadwal sementara). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_pemrograman_web_genap",
+    "judul": "Jadwal Kuliah Pemrograman Web Semester 4 Semester Genap 2026/2027 (jadwal sementara)",
+    "isi": "Mata kuliah Pemrograman Web (3 SKS) untuk Informatika semester 4 angkatan 2025 dijadwalkan hari Kamis pukul 07.30-10.00 di Lab Komputer 2 dengan dosen pengampu Dosen J, Semester Genap 2026/2027 (jadwal sementara). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_teori_bahasa_dan_otomata_genap",
+    "judul": "Jadwal Kuliah Teori Bahasa dan Otomata Semester 4 Semester Genap 2026/2027 (jadwal sementara)",
+    "isi": "Mata kuliah Teori Bahasa dan Otomata (3 SKS) untuk Informatika semester 4 angkatan 2025 dijadwalkan hari Rabu pukul 07.30-10.00 di R. 202 dengan dosen pengampu Dosen K, Semester Genap 2026/2027 (jadwal sementara). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_metode_numerik_genap",
+    "judul": "Jadwal Kuliah Metode Numerik Semester 4 Semester Genap 2026/2027 (jadwal sementara)",
+    "isi": "Mata kuliah Metode Numerik (3 SKS) untuk Informatika semester 4 angkatan 2025 dijadwalkan hari Selasa pukul 10.00-12.30 di R. 201 dengan dosen pengampu Dosen L, Semester Genap 2026/2027 (jadwal sementara). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_pembelajaran_mesin_genap",
+    "judul": "Jadwal Kuliah Pembelajaran Mesin Semester 6 Semester Genap 2026/2027 (jadwal sementara)",
+    "isi": "Mata kuliah Pembelajaran Mesin (3 SKS) untuk Informatika semester 6 angkatan 2024 dijadwalkan hari Jumat pukul 07.30-10.00 di Lab Komputer 1 dengan dosen pengampu Dosen M, Semester Genap 2026/2027 (jadwal sementara). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_pengolahan_citra_digital_genap",
+    "judul": "Jadwal Kuliah Pengolahan Citra Digital Semester 6 Semester Genap 2026/2027 (jadwal sementara)",
+    "isi": "Mata kuliah Pengolahan Citra Digital (3 SKS) untuk Informatika semester 6 angkatan 2024 dijadwalkan hari Kamis pukul 07.30-10.00 di Lab Jaringan dengan dosen pengampu Dosen N, Semester Genap 2026/2027 (jadwal sementara). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_manajemen_proyek_ti_genap",
+    "judul": "Jadwal Kuliah Manajemen Proyek TI Semester 6 Semester Genap 2026/2027 (jadwal sementara)",
+    "isi": "Mata kuliah Manajemen Proyek TI (3 SKS) untuk Informatika semester 6 angkatan 2024 dijadwalkan hari Rabu pukul 07.30-10.00 di R. 203 dengan dosen pengampu Dosen O, Semester Genap 2026/2027 (jadwal sementara). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_sistem_terdistribusi_genap",
+    "judul": "Jadwal Kuliah Sistem Terdistribusi Semester 6 Semester Genap 2026/2027 (jadwal sementara)",
+    "isi": "Mata kuliah Sistem Terdistribusi (3 SKS) untuk Informatika semester 6 angkatan 2024 dijadwalkan hari Selasa pukul 07.30-10.00 di R. 202 dengan dosen pengampu Dosen P, Semester Genap 2026/2027 (jadwal sementara). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_mk_etika_profesi_genap",
+    "judul": "Jadwal Kuliah Etika Profesi Semester 6 Semester Genap 2026/2027 (jadwal sementara)",
+    "isi": "Mata kuliah Etika Profesi (2 SKS) untuk Informatika semester 6 angkatan 2024 dijadwalkan hari Senin pukul 07.30-09.10 di R. 203 dengan dosen pengampu Dosen A, Semester Genap 2026/2027 (jadwal sementara). (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_sem_akhir",
+    "judul": "Jadwal Semester 7 dan 8: Skripsi dan Bimbingan",
+    "isi": "Mahasiswa semester 8 (angkatan 2023, semester genap) tidak memiliki kuliah terjadwal karena fokus mengerjakan skripsi. Jadwal bimbingan skripsi disepakati langsung dengan dosen pembimbing. Mahasiswa semester 7 hanya mengambil sedikit mata kuliah agar sempat menyiapkan proposal skripsi. (DATA DUMMY - ganti dengan jadwal resmi prodi)"
+  },
+  {
+    "id": "jadwal_slot",
+    "judul": "Jam dan Slot Perkuliahan",
+    "isi": "Satu SKS setara 50 menit. Slot perkuliahan: slot pagi mulai pukul 07.30, slot siang mulai pukul 10.00, dan slot sore mulai pukul 13.30. Mata kuliah 3 SKS berlangsung 150 menit dan mata kuliah 2 SKS berlangsung 100 menit. Pada hari Jumat tidak ada kuliah pukul 10.00 karena jeda salat Jumat, dan slot sore dimulai pukul 14.00. Perkuliahan berlangsung Senin sampai Jumat, tidak ada kuliah pada hari Sabtu dan Minggu. (DATA DUMMY - ganti dengan jadwal resmi prodi)"
   }
 ]

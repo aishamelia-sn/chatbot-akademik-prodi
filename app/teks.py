@@ -20,7 +20,7 @@ class PencocokTFIDF:
 
     def __init__(self, teks_list, label_list):
         self.label = label_list
-        self.vec = TfidfVectorizer(ngram_range=(1, 2))
+        self.vec = TfidfVectorizer(ngram_range=(1, 2), token_pattern=r"(?u)\b\w+\b")  # \w+ : angka 1 digit (semester 3) ikut dihitung
         self.matriks = self.vec.fit_transform([bersihkan(t) for t in teks_list])
 
     def cari(self, pertanyaan: str):
@@ -31,3 +31,12 @@ class PencocokTFIDF:
         skor = cosine_similarity(self.vec.transform([q]), self.matriks)[0]
         i = int(skor.argmax())
         return self.label[i], float(skor[i])
+
+    def cari_banyak(self, pertanyaan: str, k: int = 3):
+        """Kembalikan daftar (label, skor) k teratas, skor terbesar dulu."""
+        q = bersihkan(pertanyaan)
+        if not q:
+            return []
+        skor = cosine_similarity(self.vec.transform([q]), self.matriks)[0]
+        urut = skor.argsort()[::-1][:k]
+        return [(self.label[i], float(skor[i])) for i in urut]

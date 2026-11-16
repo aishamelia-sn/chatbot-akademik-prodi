@@ -3,7 +3,7 @@ from app.lapisan2_llm import TANDA_TIDAK_ADA
 
 
 def llm_kutip(q, dok):
-    return "Menurut " + dok["judul"] + ": " + dok["isi"]
+    return "Menurut " + dok[0]["judul"] + ": " + dok[0]["isi"]
 
 
 def llm_tak_tahu(q, dok):
@@ -28,7 +28,7 @@ def test_pertanyaan_kompleks_pakai_dokumen():
 
 def test_tanpa_dokumen_relevan_llm_tidak_dipanggil():
     bot = ChatbotAkademik(llm=llm_error)
-    jawab, sumber = bot.tanya("Siapa presiden pertama Indonesia?")
+    jawab, sumber = bot.tanya("resep nasi goreng")
     assert jawab == PESAN_TOLAK and "tidak ada dokumen" in sumber
 
 
@@ -59,3 +59,28 @@ def test_variasi_kalimat_faq():
     bot = ChatbotAkademik(llm=llm_error)
     for q in ["kampus di mana sih", "cara isi krs", "email admin", "kapan krs dibuka"]:
         assert bot.tanya(q)[1].startswith("FAQ"), q
+
+
+def test_jadwal_umum_dijawab_faq_tapi_jadwal_spesifik_ke_dokumen():
+    bot = ChatbotAkademik(llm=llm_kutip)
+    assert bot.tanya("jadwal kuliah")[1].startswith("FAQ")
+    assert bot.tanya("jadwal kuliah hari senin")[1].startswith("LLM")
+
+
+def test_llm_menerima_beberapa_dokumen_jadwal():
+    diterima = {}
+
+    def llm_catat(q, dok):
+        diterima["dok"] = dok
+        return "ok"
+    ChatbotAkademik(llm=llm_catat).tanya("semester 3 kuliah apa saja")
+    assert 1 < len(diterima["dok"]) <= 3
+    assert any("Semester 3" in d["judul"] for d in diterima["dok"])
+
+
+def test_kata_kebetulan_cocok_tetap_ditolak_oleh_llm():
+    # "Indonesia" kebetulan ada di dokumen "Bahasa Indonesia" -> dokumen terambil,
+    # tetapi LLM wajib menjawab TIDAK_ADA_DI_DOKUMEN dan bot menolak.
+    bot = ChatbotAkademik(llm=llm_tak_tahu)
+    jawab, _ = bot.tanya("Siapa presiden pertama Indonesia?")
+    assert jawab == PESAN_TOLAK

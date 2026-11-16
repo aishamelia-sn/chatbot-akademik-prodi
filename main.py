@@ -5,8 +5,9 @@ from app.chatbot import ChatbotAkademik
 
 
 def llm_tiruan(pertanyaan, dokumen):
-    """LLM palsu untuk latihan tanpa kunci: cuma mengutip isi dokumen."""
-    return f"[TIRUAN] Menurut '{dokumen['judul']}': {dokumen['isi']}"
+    """LLM palsu untuk latihan tanpa kunci: cuma mengutip dokumen teratas apa adanya."""
+    d = dokumen[0]
+    return f"[TIRUAN] Menurut '{d['judul']}': {d['isi']}"
 
 
 def main():
