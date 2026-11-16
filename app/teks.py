@@ -9,8 +9,11 @@ STOPWORD = {"ya", "kak", "dong", "deh", "sih", "nih", "yang", "di", "ke", "dan",
 
 
 def bersihkan(teks: str) -> str:
-    """huruf kecil, buang tanda baca, buang stopword."""
+    """huruf kecil, buang tanda baca, rapikan huruf berulang, buang stopword."""
     teks = re.sub(r"[^\w\s]", " ", teks.lower())
+    # rapikan huruf berulang ("haloo" -> "halo", "makasiii" -> "makasi"); dilakukan di
+    # pertanyaan DAN contoh FAQ, jadi keduanya tetap sama-sama dirapikan
+    teks = re.sub(r"([a-z])\1+", r"\1", teks)
     kata = [k for k in teks.split() if k not in STOPWORD]
     return " ".join(kata)
 

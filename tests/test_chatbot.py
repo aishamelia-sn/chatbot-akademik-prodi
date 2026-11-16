@@ -84,3 +84,9 @@ def test_kata_kebetulan_cocok_tetap_ditolak_oleh_llm():
     bot = ChatbotAkademik(llm=llm_tak_tahu)
     jawab, _ = bot.tanya("Siapa presiden pertama Indonesia?")
     assert jawab == PESAN_TOLAK
+
+
+def test_huruf_berulang_tetap_dikenali():
+    bot = ChatbotAkademik(llm=llm_error)
+    for q in ["haloo", "haiii bot", "makasiii banyak", "kak alamat kampuss dimanaa"]:
+        assert bot.tanya(q)[1].startswith("FAQ"), q
