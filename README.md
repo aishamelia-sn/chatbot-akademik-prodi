@@ -19,7 +19,7 @@ python -m pytest                # jalankan tes
 - `app/lapisan1_faq.py` Lapisan 1
 - `app/lapisan2_llm.py` Lapisan 2 (Gemini)
 - `app/chatbot.py` penggabung
-- `data/` FAQ dan dokumen resmi (ISI DENGAN DATA ASLI PRODI)
+- `data/` FAQ dan dokumen resmi
 - `tests/` tes otomatis
 
 Kunci API ada di `.env` (tidak ikut ke GitHub).
